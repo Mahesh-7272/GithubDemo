@@ -10,3 +10,8 @@ class HomePage:
     def shopItems(self):
         return self.driver.find_element(*HomePage.shop)# we add star to deserialized it as touple
         #driver.find_element(By.XPATH,"//a[text()='Birthday Gifts']")
+
+
+
+
+    print("hii how are you")
