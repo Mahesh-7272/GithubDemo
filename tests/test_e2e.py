@@ -35,3 +35,6 @@ class TestOne(BaseClass):
     @pytest.fixture(params=HomePageData.test_HomePage_data)
     def getData(self, request):
         return request.param
+
+
+    print("this ios just for testing purpose")
